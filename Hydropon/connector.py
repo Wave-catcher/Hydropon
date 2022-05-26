@@ -18,7 +18,7 @@ os.system('cls||clear')
 print ('Connector start...')
 
 from openapi_client import openapi
-token = 't.3Vey_qr5UnNJbBr_RKoNWeEbFtkoEKjjjCiPkUCY-aeJx3wIRJ_5MoqjaJZ_mA3JAF7aLABH2oWnRcTjPZVgrw'
+token = 'token here'
 client = openapi.api_client(token)
 pf = client.portfolio.portfolio_get()  # получаем портфель 
 
